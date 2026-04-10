@@ -12,7 +12,7 @@ html, body {
     height: 100vh;
     overflow: hidden;
     position: fixed;
-    top: 100px;
+    top: 0;
     left: 0;
     display: flex;
     justify-content: flex-start;
@@ -22,11 +22,11 @@ html, body {
 }
 
 .game-wrapper {
-    width: 1920px;
-    height: 1080px;
+    width: 1980px;
+    height: 1160px;
     overflow: hidden;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: 200px;
 }
 
 .game-wrapper iframe {
