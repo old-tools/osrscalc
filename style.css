@@ -1,8 +1,7 @@
-/* Core fixes for scrollbars and positioning */
 html, body {
     margin: 0;
     padding: 0;
-    overflow: hidden; /* This should disable ALL scrollbars */
+    overflow: hidden;
     width: 100%;
     height: 100%;
     background-color: #1a1a1a;
