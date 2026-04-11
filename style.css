@@ -50,11 +50,6 @@ body {
     margin-bottom: 20px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 .card {
     background-color: #2d2d2d;
     border-radius: 8px;
