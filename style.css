@@ -23,8 +23,8 @@ html, body {
     width: 1940px;
     height: 1100px;
     overflow: hidden;
-    margin-left: 10px;
-    margin-top: 500px;
+    margin-left: 0;
+    margin-top: 0;
 }
 .game-wrapper iframe {
     width: 100% !important;
