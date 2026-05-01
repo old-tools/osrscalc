@@ -13,11 +13,14 @@
             scroll-behavior: smooth;
             margin: 0;
             padding: 0;
+            position: relative;
         }
         
         .content-wrapper {
             min-height: 100vh;
             padding-bottom: 50px;
+            position: relative;
+            z-index: 1;
         }
         
         .spacing-element {
@@ -27,6 +30,31 @@
         .spacing-element2 {
             height: 1000px;
         }
+        
+        .game-wrapper {
+            width: 1940px;
+            height: 1110px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .game-container {
+            position: relative;
+            margin-top: 140px;
+            z-index: 2;
+        }
+        
+        iframe {
+            position: relative;
+            z-index: 2;
+            pointer-events: auto;
+        }
+        
+        #giscus-container {
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
     </style>
 </head>
 <body>
@@ -34,13 +62,13 @@
         <h1>old-tools</h1>
         <!-- <p>...</p> -->
         <a href="https://old-tools.github.io/home/" target="_self" style="position: relative; z-index: 100;">
-        Back ↗
+            Back ↗
         </a>
         
         <div class="spacing-element"></div>
         
-        <div class="container">
-            <div class="game-wrapper" style="width: 1940px; height: 1110px;">
+        <div class="game-container">
+            <div class="game-wrapper">
                 <iframe 
                     src="/osrscalc/calc/index.html" 
                     width="100%" 
