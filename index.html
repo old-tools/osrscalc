@@ -5,16 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>old-tools</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .giscus-container {
+            position: relative;
+            z-index: 1000;
+            margin-top: 20px;
+        }
+        
+        .giscus-frame {
+            width: 100%;
+            min-height: 300px;
+        }
+    </style>
 </head>
 <body>
     <h1>old-tools</h1>
-    <!-- <p>...</p> -->
+    
     <a href="https://old-tools.github.io/home/" target="_self" style="position: relative; z-index: 100;">
-    Back ↗
+        Back ↗
     </a>
     
     <div class="container">
-        <div class="game-wrapper" style="width: 1940px; height: 1110px;">
+        <div class="game-wrapper" style="width: 1940px; height: 1110px; position: relative;">
             <iframe 
                 src="/osrscalc/calc/index.html" 
                 width="100%" 
@@ -25,22 +37,24 @@
             </iframe>
         </div>
     </div>
-
-    <script src="https://giscus.app/client.js"
-        data-repo="old-tools/osrscalc"
-        data-repo-id="R_kgDOR9foSA"
-        data-category="[ENTER CATEGORY NAME HERE]"
-        data-category-id="[ENTER CATEGORY ID HERE]"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="noborder_gray"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
+    
+    <div class="giscus-container">
+        <script src="https://giscus.app/client.js"
+            data-repo="old-tools/osrscalc"
+            data-repo-id="R_kgDOR9foSA"
+            data-category="[ENTER CATEGORY NAME HERE]"
+            data-category-id="[ENTER CATEGORY ID HERE]"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="noborder_gray"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+        </script>
+    </div>
     
 </body>
 </html>
