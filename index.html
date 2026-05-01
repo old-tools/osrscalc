@@ -5,28 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>old-tools</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .giscus-container {
-            position: relative;
-            z-index: 1;
-            margin-top: 20px;
-        }
-        
-        .giscus-frame {
-            width: 100%;
-            min-height: 300px;
-        }
-    </style>
 </head>
 <body>
     <h1>old-tools</h1>
-    
+    <!-- <p>...</p> -->
     <a href="https://old-tools.github.io/home/" target="_self" style="position: relative; z-index: 100;">
-        Back ↗
+    Back ↗
     </a>
     
     <div class="container">
-        <div class="game-wrapper" style="width: 1940px; height: 1110px; position: relative;">
+        <div class="game-wrapper" style="width: 1940px; height: 1110px;">
             <iframe 
                 src="/osrscalc/calc/index.html" 
                 width="100%" 
@@ -37,8 +25,8 @@
             </iframe>
         </div>
     </div>
-    
-    <div class="giscus-container">
+
+    <div id="giscus-container" style="margin-top: 20px;">
         <script src="https://giscus.app/client.js"
             data-repo="old-tools/osrscalc"
             data-repo-id="R_kgDOR9foSA"
@@ -55,6 +43,6 @@
             async>
         </script>
     </div>
-    
+
 </body>
 </html>
